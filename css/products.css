@@ -1,0 +1,133 @@
+/*All Product Page Styling*/
+.filter-section {
+    padding: 20px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.filter-header {
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.availability-header {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 5px;
+}
+
+.filter-content {
+    padding: 0;
+}
+
+.stock-options {
+    padding: 4px 0;
+}
+
+.stock-option {
+    padding: 4px;
+    cursor: pointer;
+    color: #666;
+    transition: color 0.2s ease;
+    font-size: 1.1rem;
+}
+
+.stock-option:hover {
+    color: #333;
+}
+
+.stock-option.active {
+    color: #333;
+    font-weight: 500;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 12px 15px 12px 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>') no-repeat 15px center;
+    background-color: white;
+}
+
+.search-input::placeholder {
+    color: #999;
+}
+
+.toggle-icon, .availability-toggle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #666;
+}
+
+.toggle-icon {
+    margin-left: 8px;
+}
+
+.products-container {
+    transition: all 0.3s ease;
+    min-height: 1000px;
+}
+.product-card {
+    width: 40% !important; 
+    max-width: 300px; 
+}
+
+.product-card img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .product-card {
+        margin: 0 auto;
+    }
+    
+    .products-container {
+        padding: 0 15px;
+    }
+}
+
+.product-card-link {
+    width: 100%;
+    display: block;
+}
+.stock-message {
+    color: #666;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 20px; 
+    margin-bottom: 30px;
+    margin-right: 200px;
+    font-family: 'Helvetica', sans-serif;
+    letter-spacing: 0.02em;
+    text-align: center;
+    width: 100%;
+}
+
+.message-container {
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+/*All Product Page Styling*/
